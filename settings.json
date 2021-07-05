@@ -3,27 +3,34 @@
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 0.6,
+    "editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontWeight": "bold",
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "workbench.colorCustomizations": {
-        "sideBar.background": "#191a2e",
-        "editor.background": "#191a2e",
-        "terminal.background": "#141414",
-        "terminal.foreground": "#1cce05",
-        "panel.background": "#191a2e",
-        "activityBar.background": "#191a2e",
-        "tab.activeBorderTop": "#8d92ff",
+        "sideBar.background": "#101011",
+        "editor.background": "#101011",
+        "terminal.background": "#101011",
+        "terminal.foreground": "#e2e2e2",
+        "panel.background": "#101011",
+        "activityBar.background": "#101011",
+        "tab.activeBorderTop": "#aeb2ff",
         "tab.inactiveBackground": "#191A22",
         "panelTitle.activeBorder": "#8d92ff",
         "panel.border": "#8d92ff",
-        "tab.activeBackground": "#191a2e",
-        "breadcrumb.background": "#191a2e",
-        "sideBarSectionHeader.background": "#191a2e",
-        "activityBarBadge.background": "#ff6bcb",
-        "activityBar.activeBorder": "#ff6bcb",
-        "titleBar.activeBackground": "#1E1F35",
+        "tab.activeBackground": "#101011",
+        "tab.inactiveForeground": "#868686",
+        "breadcrumb.background": "#101011",
+        "breadcrumb.foreground": "#ffffff",
+        "sideBarSectionHeader.background": "#101011",
+        "activityBarBadge.background": "#03cf36",
+        "activityBar.activeBorder": "#03cf36",
+        "titleBar.activeBackground": "#101011",
         "terminal.ansiGreen": "#20e3b2",
         "terminal.ansiYellow": "#FDE181",
         "terminal.ansiMagenta": "#ff6bcb",
-        "editorCursor.foreground": "#9a86fd"
+        "editorCursor.foreground": "#9a86fd",
     },
     "editor.tokenColorCustomizations": {
         "[Dracula]": {
@@ -142,7 +149,8 @@
                         "entity.other.inherited-class"
                     ],
                     "settings": {
-                        "foreground": "#2cccff"
+                        "foreground": "#2cccff",
+                        "fontStyle": ""
                     }
                 },
                 {
@@ -153,13 +161,14 @@
                         "variable.scss"
                     ],
                     "settings": {
+                        "fontStyle": "",
                         "foreground": "#9dbeff"
                     }
                 }
             ]
         }
     },
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "git.confirmSync": false,
     "gitlens.hovers.currentLine.over": "line",
     "editor.suggestSelection": "first",
@@ -185,5 +194,7 @@
         "gitlens.codeLens.scopes": [
             "document"
         ]
-    }
+    },
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
